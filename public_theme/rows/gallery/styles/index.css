@@ -1,0 +1,16 @@
+body {
+	background-color: #092A5E;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	background: transparent;
+	width: 100%;
+	height: 80%;
+	text-align: center;
+}
+#register {
+	background: #fff;
+	width: 100%;
+	height: 40%;
+}

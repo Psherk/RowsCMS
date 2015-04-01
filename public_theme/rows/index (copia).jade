@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= s.name + ' - Bienvenid@'
+    link(rel="stylesheet", href="index.css")
+  body
+    h1 {Login} {body}
+    form(action="/account-submit", method="post")
+      input(type="text", name="email", placeholder="Nombre de usuario")
+      input(type="password", name="password", placeholder="Contraseña")
+      input(type="submit", value="Login")
+
+    h1 {Registration}
+    form(action="/registration", method="post")
+      input(type="text", name="username", placeholder="Username")
+      input(type="text", name="correo", placeholder="Email")
+      input(type="password", name="pass", placeholder="Contraseña")
+      input(type="password", name="passw", placeholder="Valida tu contraseña")
+      input(type="submit", value="Registrate!")
